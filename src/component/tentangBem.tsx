@@ -66,34 +66,34 @@ export function tentangBem() {
                     </div>
 
                     {/* Right Image */}
-                    <div className="relative h-[500px] lg:h-[600px] lg:mt-5 lg:mr-5">
+                    <div className="relative h-125 lg:h-150 lg:mt-5 lg:mr-5">
                         {/* Gambar 1 - Belakang kiri */}
-                        <div className="absolute -top-10 left-20 w-[280px] lg:w-[350px] rounded-xl bg-white p-5 overflow-hidden shadow-2xl z-30 hover:z-50 hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-800 ease-out cursor-pointer border-t-2 border-b-2">
+                        <div className="absolute -top-10 left-20 w-70 lg:w-87.5 rounded-xl bg-white p-5 overflow-hidden shadow-2xl z-30 hover:z-50 hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-800 ease-out cursor-pointer border-t-2 border-b-2">
                             <img
                                 src={gambar1}
                                 alt=""
-                                className="w-full h-[350px] lg:h-[450px] object-cover rounded-2xl border-t-2 border-b-2"
+                                className="w-full h-87.5 lg:h-112.5 object-cover rounded-2xl border-t-2 border-b-2"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-amber-900/30 to-transparent"></div>
+                            <div className="absolute inset-0 bg-linear-to-t from-amber-900/30 to-transparent"></div>
                         </div>
 
                         {/* Gambar 2 - Tengah */}
-                        <div className="absolute top-5 left-[120px] lg:left-[180px] w-[280px] lg:w-[350px] bg-white rounded-xl shadow-2xl p-5 z-20 hover:z-50 hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-500 ease-out cursor-pointer border-t-2 border-b-2">
+                        <div className="absolute top-5 left-30 lg:left-45 w-70 lg:w-87.5 bg-white rounded-xl shadow-2xl p-5 z-20 hover:z-50 hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-500 ease-out cursor-pointer border-t-2 border-b-2">
                             <img
                                 src={Gambar2}
                                 alt=""
-                                className="w-full h-[300px] lg:h-[450px] object-cover rounded-2xl border-t-2 border-b-2"
+                                className="w-full h-75 lg:h-112.5 object-cover rounded-2xl border-t-2 border-b-2"
                             />
                         </div>
 
                         {/* Gambar 3 - Depan kanan */}
-                        <div className="absolute bottom-8 right-0 w-[280px] lg:w-[350px] bg-white p-6 rounded-xl overflow-hidden border-b-2 border-t-2 shadow-2xl z-10 hover:z-50 hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-500 ease-out cursor-pointer">
+                        <div className="absolute bottom-8 right-0 w-70 lg:w-87.5 bg-white p-6 rounded-xl overflow-hidden border-b-2 border-t-2 shadow-2xl z-10 hover:z-50 hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-500 ease-out cursor-pointer">
                             <img
                                 src={Gambar3}
                                 alt=""
-                                className="w-full h-[350px] lg:h-[450px] object-cover border-b-2 rounded-2xl border-t-2"
+                                className="w-full h-87.5 lg:h-112.5 object-cover border-b-2 rounded-2xl border-t-2"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/30 to-transparent"></div>
+                            <div className="absolute inset-0 bg-linear-to-t from-emerald-900/30 to-transparent"></div>
                         </div>
                     </div>
                 </div>

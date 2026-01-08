@@ -114,9 +114,9 @@ const CarouselSection = () => {
             >
               <div className="w-full max-w-6xl px-6 mt-12">
                 {/* Card Container */}
-                <div className="bg-gradient-to-br from-purple-200/30 to-blue-200/30 rounded-[2rem] p-2 shadow-xl backdrop-blur-sm border-2 border-gray-400/40">
+                <div className="bg-linear-to-br from-purple-200/30 to-blue-200/30 rounded-4xl p-2 shadow-xl backdrop-blur-sm border-2 border-gray-400/40">
                   <div
-                    className="bg-white rounded-[1.8rem] p-4 shadow-lg min-h-[500px] border-2 border-gray-400/60"
+                    className="bg-white rounded-[1.8rem] p-4 shadow-lg min-h-125 border-2 border-gray-400/60"
                     style={{
                       backgroundImage: `
                       linear-gradient(to right, rgb(209 213 219 / 0.4) 1px, transparent 1px),
@@ -175,10 +175,10 @@ const CarouselSection = () => {
                       }}
                     >
                       <div className="text-center text-white z-10 rounded-2xl -mb-10">
-                        <h1 className="slide-title text-5xl md:text-[5.2rem] font-bold mb-4 tracking-wide [text-shadow:_0_48px_64px_rgb(0_0_0_/_600%),_0_48px_64px_rgb(0_0_0_/_700%)] px-4 py-2">
+                        <h1 className="slide-title text-5xl md:text-[5.2rem] font-bold mb-4 tracking-wide [text-shadow:0_48px_64px_rgb(0_0_0/600%),0_48px_64px_rgb(0_0_0/700%)] px-4 py-2">
                           {slide.title}
                         </h1>
-                        <p className="text-xl md:text-2xl opacity-90 [text-shadow:_0_2px_8px_rgb(0_0_0_/_80%),_0_4px_16px_rgb(0_0_0_/_60%)]">{slide.subtitle}</p>
+                        <p className="text-xl md:text-2xl opacity-90 [text-shadow:0_2px_8px_rgb(0_0_0/80%),0_4px_16px_rgb(0_0_0/60%)]">{slide.subtitle}</p>
                       </div>
                     </div>
                   </div>
