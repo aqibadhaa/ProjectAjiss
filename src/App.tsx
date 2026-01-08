@@ -7,7 +7,6 @@ import img1 from './component/images/IMG_6031.png';
 import img2 from './component/images//gambar2.png';
 import img3 from './component/images/gambar3.png';
 import img4 from './component/images/gambar4.png';
-import jajaranBem from './component/images/jajaran bem.png';
 import PengurusInti from './component/pengurusINTI';
 import FotoBersama from './component/images/foto bersama.png';
 import TentangBemSection from './component/tentangBem';
