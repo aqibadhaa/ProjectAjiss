@@ -31,7 +31,7 @@ export function Navbar() {
                 : 'bg-transparent'
                 }`}
         >
-            <div className="max-w-8xl mx-auto px-13 md:py-2.5 py-2">
+            <div className="max-w-8xl mx-auto px-6 lg:px-13 md:py-2.5 py-4 lg:py-2">
                 <div className="flex items-center justify-between">
                     {/* Logo */}
                     <div className="flex items-center gap-4">

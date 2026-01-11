@@ -10,6 +10,8 @@ import img4 from './component/images/gambar4.png';
 import PengurusInti from './component/pengurusINTI';
 import FotoBersama from './component/images/foto bersama.png';
 import TentangBemSection from './component/tentangBem';
+import PengurusInti_SekreBendahara from './component/pengurusINTI_SekreBendahara';
+import logoBem from './component/images/Fakultas Teknik.png';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother);
 
@@ -126,18 +128,24 @@ const CarouselSection = () => {
                   >
                     {/* Content goes here */}
                     <div className="h-full flex flex-row items-center justify-center text-center gap-4">
-                      <div className='h-full w-full border-0 border-gray-600 rounded-2xl overflow-hidden flex flex-row gap-4 p-8'>
+                      <div className='h-full w-full border-0 border-gray-600 rounded-2xl overflow-hidden flex flex-row gap-6 p-1 lg:p-8'>
                         {/* Kontainer Persegi */}
-                        <div className='w-80 h-120 border-2 border-gray-500 rounded-lg overflow-hidden'>
+                        <div className='hidden lg:block w-80 h-120 rounded-lg overflow-hidden'>
+                          <div>
+                            <h1 className='text-gray-800 text-3xl font-bold py-2' style={{ fontFamily: 'Saira, sans-serif', letterSpacing: 15, wordSpacing: -1 }}>BEM FT</h1>
+                          </div>
                           <img
-                            src={FotoBersama}
-                            alt="Foto Bersama"
-                            className='w-full h-full object-cover'
+                            src={logoBem}
+                            alt="Logo Bem FT"
+                            className='w-80 h-95.5 object-cover items-center justify-center'
                           />
+                          <div>
+                            <h1 className='text-gray-800 text-2xl font-bold py-2' style={{ fontFamily: 'Saira, sans-serif' }}>Tahun 2026</h1>
+                          </div>
                         </div>
 
                         {/* Kontainer Persegi Panjang */}
-                        <div className='flex-1 h-auto rounded-lg overflow-hidden relative group hover:rounded-[4rem] transition-all duration-700 hover:scale-101'>
+                        <div className='flex-1 h-120 w-full lg:w-full rounded-2xl lg:rounded-lg overflow-hidden relative group hover:rounded-[4rem] transition-all duration-700 hover:scale-101'>
                           <img
                             src={FotoBersama}
                             alt="Foto Bersama"
@@ -145,9 +153,9 @@ const CarouselSection = () => {
                           />
 
                           {/* Tulisan yang muncul saat tidak hover, hilang saat hover */}
-                          <div className='absolute inset-0 flex flex-col items-center justify-end group-hover:opacity-0 transition-opacity duration-500 p-3 text-left'>
-                            <h1 className='text-white text-2xl font-bold self-start pl-2' style={{ fontFamily: 'Saira, sans-serif' }}>Badan Eksekutif Mahasiswa Fakultas Teknik</h1>
-                            <p className='text-white text-xl py-2 pl-2' style={{ fontFamily: 'Nunito, sans-serif' }}>Merupakan organisasi intra kampus yang menjalankan fungsi tridharma Perguruan Tinggi, pengawalan politik, dan pengembangan kemampuan dalam minat bakat mahasiswa di tingkat Fakultas Teknik</p>
+                          <div className='absolute inset-0 flex flex-col items-center justify-end group-hover:opacity-0 transition-opacity duration-500 p-1 lg:p-3 text-left'>
+                            <h1 className='text-white text-xl lg:text-2xl font-bold self-start pl-2' style={{ fontFamily: 'Saira, sans-serif' }}>Badan Eksekutif Mahasiswa Fakultas Teknik</h1>
+                            <p className='text-white text-md lg:text-xl py-2 pl-2' style={{ fontFamily: 'Nunito, sans-serif' }}>Merupakan organisasi intra kampus yang menjalankan fungsi tridharma Perguruan Tinggi, pengawalan politik, dan pengembangan kemampuan dalam minat bakat mahasiswa di tingkat Fakultas Teknik</p>
                           </div>
                         </div>
                       </div>
@@ -230,6 +238,10 @@ const CarouselSection = () => {
 
           <section>
             <PengurusInti></PengurusInti>
+          </section>
+
+          <section>
+            <PengurusInti_SekreBendahara></PengurusInti_SekreBendahara>
           </section>
 
 

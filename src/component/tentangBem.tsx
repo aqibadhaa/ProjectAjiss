@@ -14,10 +14,10 @@ export function tentangBem() {
 
 
 
-            <div className="container mx-auto px-4 sm:px-6 lg:px-5 lg:ml-40 lg:mx-8 py-20 relative z-10">
-                <div className="grid lg:grid-cols-2 gap-8 lg:gap-1 items-center">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-5 lg:ml-30 lg:mx-8 py-20 relative z-10">
+                <div className="grid lg:grid-cols-2 gap-8 lg:-gap-10 items-center">
                     {/* Left Content */}
-                    <div className="space-y-8 text-center lg:text-left lg:-mx-1">
+                    <div className="space-y-8 text-left lg:text-left lg:mx-5">
 
                         <h1 className="text-5xl sm:text-start sm:text-6xl lg:text-7xl lg:-mx-2 text-amber-950 leading-tight">
                             Dinamis
@@ -27,7 +27,7 @@ export function tentangBem() {
                             Harmonis
                         </h1>
 
-                        <p className="text-lg sm:text-xl text-[#543a13] max-w-xl mx-auto lg:mx-0 lg:px-1 text-justify" style={{ fontFamily: 'Nunito, sans-serif' }}>
+                        <p className="text-lg sm:text-xl text-[#543a13] max-w-xl mx-1 lg:mx-0 lg:px-1 text-justify" style={{ fontFamily: 'Nunito, sans-serif' }}>
                             BEM FT bukan hanya sekadar organisasi kemahasiswaan biasa. Kami adalah wadah bagi para mahasiswa untuk mengembangkan potensi diri, memperluas jaringan, dan berkontribusi nyata bagi masyarakat. Dengan berbagai program kerja yang inovatif dan berorientasi pada pemberdayaan, BEM FT berkomitmen untuk menciptakan perubahan positif yang berdampak luas. Bergabunglah bersama kami dan jadilah bagian dari perjalanan transformasi ini!
                         </p>
 
@@ -55,7 +55,7 @@ export function tentangBem() {
                                 </div>
                             </div>
                             <div className="text-center lg:text-left lg:mx-auto">
-                                <div className="text-xl sm:text-4xl text-amber-900">
+                                <div className="text-3xl sm:text-4xl text-amber-900">
                                     35
                                 </div>
                                 <div className="text-sm text-amber-700">
@@ -66,7 +66,7 @@ export function tentangBem() {
                     </div>
 
                     {/* Right Image */}
-                    <div className="relative h-125 lg:h-150 lg:mt-5 lg:mr-5">
+                    <div className="relative mt-21 lg:mt-5 h-125 lg:h-150  lg:mr-18 lg:-ml-11 lg:mx-auto">
                         {/* Gambar 1 - Belakang kiri */}
                         <div className="absolute -top-10 left-20 w-70 lg:w-87.5 rounded-xl bg-white p-5 overflow-hidden shadow-2xl z-30 hover:z-50 hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-800 ease-out cursor-pointer border-t-2 border-b-2">
                             <img
@@ -87,7 +87,7 @@ export function tentangBem() {
                         </div>
 
                         {/* Gambar 3 - Depan kanan */}
-                        <div className="absolute bottom-8 right-0 w-70 lg:w-87.5 bg-white p-6 rounded-xl overflow-hidden border-b-2 border-t-2 shadow-2xl z-10 hover:z-50 hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-500 ease-out cursor-pointer">
+                        <div className="absolute top-20 left-40 lg:left-65 w-70 lg:w-87.5 bg-white p-5 rounded-xl shadow-2xl overflow-hidden border-b-2 border-t-2  z-10 hover:z-50 hover:scale-105 hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] transition-all duration-500 ease-out cursor-pointer">
                             <img
                                 src={Gambar3}
                                 alt=""
