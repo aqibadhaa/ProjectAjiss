@@ -16,9 +16,36 @@ export function Navbar() {
     }, []);
 
     const scrollToSection = (id: string) => {
+        // Kalau id adalah '0' atau 'Home', scroll ke paling atas
+        if (id === '0' || id === 'Home') {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+            setIsMobileMenuOpen(false);
+            return;
+        }
+
+        if (id === 'Tentang') {
+            window.scrollTo({
+                top: 3000,
+                behavior: 'smooth'
+            });
+            setIsMobileMenuOpen(false);
+            return;
+        }
+
+        // Untuk section lainnya
         const element = document.getElementById(id);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+            const navbarHeight = 80;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+
+            window.scrollTo({
+                top: offsetPosition + 80,
+                behavior: 'smooth'
+            });
             setIsMobileMenuOpen(false);
         }
     };
@@ -51,11 +78,11 @@ export function Navbar() {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center gap-10">
-                        {['Beranda', 'Tentang', 'Visi & Misi', 'Program', 'Kontak'].map((item, index) => (
+                        {['Beranda', 'Tentang', 'Motto', 'Informasi', 'Kontak'].map((item, index) => (
                             <button
                                 key={item}
-                                onClick={() => scrollToSection(['hero', 'about', 'vision', 'programs', 'contact'][index])}
-                                className={`transition-colors duration-300 hover:text-blue-600 ${isScrolled ? 'text-gray-700' : 'text-white'
+                                onClick={() => scrollToSection(['0', 'Tentang', 'Motto', 'Informasi', 'contact'][index])}
+                                className={`transition-colors duration-300 hover:text-[#809fd2] ${isScrolled ? 'text-gray-700' : 'text-white'
                                     }`}
                             >
                                 {item}
@@ -80,7 +107,7 @@ export function Navbar() {
                             {['Beranda', 'Tentang', 'Visi & Misi', 'Program', 'Kontak'].map((item, index) => (
                                 <button
                                     key={item}
-                                    onClick={() => scrollToSection(['hero', 'about', 'vision', 'programs', 'contact'][index])}
+                                    onClick={() => scrollToSection(['0', 'about', 'vision', 'programs', 'contact'][index])}
                                     className={`text-left transition-colors duration-300 hover:text-blue-600 ${isScrolled ? 'text-gray-700' : 'text-white'
                                         }`}
                                 >

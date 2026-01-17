@@ -84,6 +84,9 @@ const CarouselSection = () => {
           scrub: 0.5,
           pin: true,
           anticipatePin: 1,
+          onRefresh: (self) => {
+            self.scroll(0); // reset scroll ke 0
+          }
         }
       }
     );
@@ -112,7 +115,7 @@ const CarouselSection = () => {
             <div
               ref={skyRef}
               className="absolute top-0 left-0 w-full h-full z-10 flex items-center justify-center"
-              style={{ backgroundColor: "#3a5e70" }}
+              style={{ backgroundColor: "#022f4d" }}
             >
               <div className="w-full max-w-6xl px-6 mt-12">
                 {/* Card Container */}
@@ -166,7 +169,7 @@ const CarouselSection = () => {
             </div>
 
             {/* Carousel Section - di bawah sky overlay */}
-            <div className="relative w-full h-screen">
+            <div id='' className="relative w-full h-screen">
               {/* Carousel Container */}
               <div className="relative w-full h-full">
                 {slides.map((slide, index) => (
