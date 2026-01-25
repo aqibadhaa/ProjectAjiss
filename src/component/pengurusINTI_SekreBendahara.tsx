@@ -141,7 +141,7 @@ export default function PengurusInti() {
             <div id="smooth-content">
                 <div
                     ref={containerRef}
-                    className="w-full bg-[#fbfbe8] flex items-start justify-center overflow-hidden pt-15 lg:pt-18 pb-0 border-t-4 border-white"
+                    className="w-full bg-[#fbfbe8] flex items-start justify-center overflow-hidden pt-15 lg:pt-18 pb-0 border-t-4 border-white xl:pb-18 2xl:pb-20"
                 >
                     {/* VISI Section */}
                     <div className="flex items-start">
@@ -176,15 +176,7 @@ export default function PengurusInti() {
                     </div>
                 </div>
 
-                <div id='Informasi' className='w-full min-h-screen bg-[#d5ebeb] flex items-center justify-center p-8 2xl:-mt-5 rounded-t-[4rem] shadow-2xl overflow-hidden'>
-                    <div className='max-w-7xl w-full bg-transparent backdrop-blur-xl rounded-3xl shadow-2xl overflow-hidden B'>
-                        <div className='flex items-center min-h-[400px] pl-12 lg:pl-20'>
-                            <h1 className='text-7xl font-bold text-gray-900' style={{ fontFamily: "'Vollkorn', serif" }}>
-                                INFORMASI TERKINI
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+
 
             </div>
         </div>

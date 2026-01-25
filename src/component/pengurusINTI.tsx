@@ -265,7 +265,7 @@ export default function PengurusInti() {
 
                         <div className='absolute lg:bottom-3 left-1 lg:left-15 xl:left-172 2xl:left-185 text-right'>
                             <h2 className='text-[0.8rem] lg:text-[1.4rem] xl:text-[1.4rem] 2xl:text-[1.5rem] font-bold text-gray-800' style={{ fontFamily: "'Vollkorn', serif" }}>
-                                Fariska Sheryn Andana
+                                Felicia Sheryn Andana
                             </h2>
                             <p className='text-xs lg:text-xl xl:text-[1.2rem] 2xl:text-xl text-gray-700 -mt-1' style={{ fontFamily: "'Saira', sans-serif" }}>
                                 Informatika 2025

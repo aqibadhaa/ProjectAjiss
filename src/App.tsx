@@ -3,15 +3,17 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
-import img1 from './component/images/IMG_6031.png';
-import img2 from './component/images//gambar2.png';
-import img3 from './component/images/gambar3.png';
-import img4 from './component/images/gambar4.png';
+import img1 from './component/images/gambar1VersiWebp.webp';
+import img2 from './component/images/gambar2VersiWebp.webp';
+import img3 from './component/images/gambar3VersiWebp.webp';
+import img4 from './component/images/gambar4VersiWebp.webp';
 import PengurusInti from './component/pengurusINTI';
 import FotoBersama from './component/images/foto bersama.png';
 import TentangBemSection from './component/tentangBem';
 import PengurusInti_SekreBendahara from './component/pengurusINTI_SekreBendahara';
 import logoBem from './component/images/Fakultas Teknik.png';
+import InformasiSection from './component/InformasiSection';
+import FooterSection from './component/footer';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother);
 
@@ -245,6 +247,15 @@ const CarouselSection = () => {
 
           <section>
             <PengurusInti_SekreBendahara></PengurusInti_SekreBendahara>
+          </section>
+
+          <section>
+            <InformasiSection></InformasiSection>
+          </section>
+
+          <section>
+            <FooterSection></FooterSection>
+
           </section>
 
 
