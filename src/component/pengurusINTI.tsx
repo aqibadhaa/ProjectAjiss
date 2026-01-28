@@ -175,7 +175,7 @@ export default function PengurusInti() {
                     <div className='absolute inset-0 flex flex-col'>
                         <div className='h-1/2 bg-[#fbfbe8] flex items-end justify-start relative z-0 pl-1 lg:pl-10'>
                             <h1
-                                className='text-5xl md:text-7xl lg:text-8xl xl:text-[9rem] 2xl:text-[11rem] font-bold text-[#e2e2b1] leading-none mb-2 md:-mb-5 lg:-mb-7 pl-3 md:pl-12 lg:pl-5 tracking-[0.2rem] lg:tracking-[0.5rem]'
+                                className='text-5xl md:text-7xl lg:text-8xl xl:text-[9rem] 2xl:text-[11rem] font-bold text-[#e2e2b1] leading-none -mb-2 md:-mb-5 lg:-mb-7 pl-[21px] md:pl-12 lg:pl-5 tracking-[0.2rem] lg:tracking-[0.5rem]'
                                 style={{
                                     fontFamily: "'Nova Square', sans-serif",
 
@@ -186,7 +186,7 @@ export default function PengurusInti() {
 
                             <h1
                                 className='text-5xl md:text-7xl lg:text-8xl xl:text-[9rem] 2xl:text-[11rem]
-                                 font-bold text-[#e2e2b7] lg:text-[#fbfbe8] leading-none mb-2 lg:-mb-64 pl-12 lg:pl-15 xl:pl-17 lg:ml-46 [word-spacing:-1rem] lg:[word-spacing:-3rem]'
+                                 font-bold text-[#e2e2b7] lg:text-[#fbfbe8] leading-none -mb-2 lg:-mb-64 pl-12 lg:pl-15 xl:pl-17 lg:ml-46 [word-spacing:-1rem] lg:[word-spacing:-3rem]'
                                 style={{
                                     fontFamily: "'Nova Square', sans-serif",
                                     letterSpacing: '0.1rem',
@@ -200,13 +200,13 @@ export default function PengurusInti() {
                     </div>
                     <div className='max-w-4xl px-22 py-5 text-justify relative z-10 mt-2 lg:-mt-10 flex items-end'>
 
-                        <img src={Ketua} alt="Foto Ketua" className='w-5/5 lg:w-2/3 mx-auto mb-1 lg:-mb-5 pr-1 lg:pr-0 lg:ml-25 scale-110 lg:scale-100' />
+                        <img src={Ketua} alt="Foto Ketua" className='w-4/5 lg:w-2/3 mx-auto -mb-2 lg:-mb-5 pr-1 lg:pr-0 lg:ml-25 scale-110 lg:scale-100 mt-5 lg:mt-0' />
 
-                        <div className='absolute bottom-7 left-1 lg:-left-11 text-right'>
-                            <h2 className='text-[0.8rem] lg:text-[1.9em] font-bold text-gray-800' style={{ fontFamily: "'Vollkorn', serif" }}>
+                        <div className='absolute bottom-1 lg:bottom-5 left-3 lg:-left-11 text-right'>
+                            <h2 className='text-[0.78rem] lg:text-[1.9em] font-bold text-gray-800' style={{ fontFamily: "'Vollkorn', serif" }}>
                                 Muhammad Tsaqib Adha
                             </h2>
-                            <p className='text-xs lg:text-xl text-gray-700 -mt-1' style={{ fontFamily: "'Saira', sans-serif" }}>
+                            <p className='text-[0.68rem] lg:text-xl text-gray-700 -mt-1' style={{ fontFamily: "'Saira', sans-serif" }}>
                                 Informatika 2025
                             </p>
                         </div>
@@ -217,7 +217,7 @@ export default function PengurusInti() {
                     <div className='absolute inset-0 flex flex-col'>
                         <div className='h-1/2 bg-[#e2e2b1] flex items-end justify-start relative z-0 pl-1 lg:pl-6'>
                             <h1
-                                className='text-5xl md:text-5xl lg:text-5xl xl:text-[6rem] 2xl:text-[7.5rem] font-bold leading-none mb-2 md:-mb-5 lg:-mb-15 xl:-mb-12 2xl:-mb-15 pl-3 md:pl-12 lg:pl-5 md:ml-5 lg:ml-6 xl:ml-65 2xl:ml-68 tracking-[0.2rem] lg:tracking-[0.5rem]'
+                                className='text-4xl md:text-5xl lg:text-5xl xl:text-[6rem] 2xl:text-[7.5rem] font-bold leading-none -mb-[17.871px] md:-mb-5 lg:-mb-15 xl:-mb-12 2xl:-mb-15 pl-3 md:pl-12 lg:pl-5 ml-17 md:ml-5 lg:ml-6 xl:ml-65 2xl:ml-68 tracking-[0.2rem] lg:tracking-[0.5rem]'
                                 style={{
                                     fontFamily: "'Nova Square', sans-serif",
                                     background: 'linear-gradient(to bottom, #fbfbe8 0%, #fbfbe8 50%, #e2e2b1 50%, #e2e2b1 100%)',
@@ -230,8 +230,8 @@ export default function PengurusInti() {
                             </h1>
 
                             <h1
-                                className='text-5xl md:text-7xl lg:text-5xl xl:text-[6rem] 2xl:text-[7.5rem]
-                                 font-bold leading-none mb-2 lg:-mb-20 xl:-mb-12 2xl:-mb-15 pl-12 lg:pl-15 xl:pl-17 lg:ml-3 [word-spacing:-1rem] lg:[word-spacing:-3rem]'
+                                className='text-4xl md:text-7xl lg:text-5xl xl:text-[6rem] 2xl:text-[7.5rem]
+                                 font-bold leading-none -mb-[17.871px] lg:-mb-20 xl:-mb-12 2xl:-mb-15 pl-12 lg:pl-15 xl:pl-17 -ml-10 lg:ml-3 [word-spacing:-1rem] lg:[word-spacing:-3rem]'
                                 style={{
                                     fontFamily: "'Nova Square', sans-serif",
                                     letterSpacing: '0.1rem',
@@ -250,24 +250,24 @@ export default function PengurusInti() {
 
                     <div className='max-w-6xl px-22 py-5 text-justify relative z-10 mt-2 lg:-mt-1 flex items-start'>
 
-                        <img src={Wakil} alt="Foto Wakil" className='w-5/5 lg:w-3/6 mb-1 lg:-mb-7 pr-1 lg:pr-0 lg:-ml-60 xl:-ml-53 2xl:-ml-73 lg:mt-10 scale-110 lg:scale-100 mr-auto' />
+                        <img src={Wakil} alt="Foto Wakil" className='w-[55%] lg:w-3/6 -mb-3.25 lg:-mb-7 pr-1 lg:pr-0 -ml-20 lg:-ml-60 xl:-ml-53 2xl:-ml-73 mt-6 lg:mt-10 scale-109 lg:scale-100 mr-auto' />
 
-                        <div className='absolute lg:bottom-3 left-1 lg:left-15 xl:left-80 2xl:left-60 text-left'>
-                            <h2 className='text-[0.8rem] lg:text-[1.4rem] xl:text-[1.4rem] 2xl:text-[1.5rem] font-bold text-gray-800' style={{ fontFamily: "'Vollkorn', serif" }}>
+                        <div className='absolute lg:bottom-3 left-[11px] lg:left-15 xl:left-80 2xl:left-60 text-left'>
+                            <h2 className='text-[0.7rem] lg:text-[1.4rem] xl:text-[1.4rem] 2xl:text-[1.5rem] font-bold text-gray-800' style={{ fontFamily: "'Vollkorn', serif" }}>
                                 Ahmad Habibi Pramuditama
                             </h2>
-                            <p className='text-xs lg:text-xl xl:text-[1.2rem] 2xl:text-xl text-gray-700 -mt-1' style={{ fontFamily: "'Saira', sans-serif" }}>
+                            <p className='text-[0.50rem] lg:text-xl xl:text-[1.2rem] 2xl:text-xl text-gray-700 -mt-1' style={{ fontFamily: "'Saira', sans-serif" }}>
                                 Informatika 2025
                             </p>
                         </div>
 
-                        <img src={Sekre} alt="Foto Sekretaris" className='w-3/5 lg:w-3/6 mb-1 lg:-mb-7 pr-1 lg:pr-0 lg:-ml-60 xl:ml-111 2xl:ml-150 lg:mt-10 scale-110 lg:scale-100 mr-auto' />
+                        <img src={Sekre} alt="Foto Sekretaris" className='w-[58%] lg:w-3/6 -mb-6 lg:-mb-7 pr-1 lg:pr-0 ml-36 lg:-ml-60 xl:ml-111 2xl:ml-150 mt-6 lg:mt-10 scale-110 lg:scale-100 mr-auto' />
 
-                        <div className='absolute lg:bottom-3 left-1 lg:left-15 xl:left-172 2xl:left-185 text-right'>
-                            <h2 className='text-[0.8rem] lg:text-[1.4rem] xl:text-[1.4rem] 2xl:text-[1.5rem] font-bold text-gray-800' style={{ fontFamily: "'Vollkorn', serif" }}>
+                        <div className='absolute lg:bottom-3 left-77 lg:left-15 xl:left-172 2xl:left-185 text-right'>
+                            <h2 className='text-[0.7rem] lg:text-[1.4rem] xl:text-[1.4rem] 2xl:text-[1.5rem] font-bold text-gray-800' style={{ fontFamily: "'Vollkorn', serif" }}>
                                 Felicia Sheryn Andana
                             </h2>
-                            <p className='text-xs lg:text-xl xl:text-[1.2rem] 2xl:text-xl text-gray-700 -mt-1' style={{ fontFamily: "'Saira', sans-serif" }}>
+                            <p className='text-[0.50rem] lg:text-xl xl:text-[1.2rem] 2xl:text-xl text-gray-700 -mt-1' style={{ fontFamily: "'Saira', sans-serif" }}>
                                 Informatika 2025
                             </p>
                         </div>

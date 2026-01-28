@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { supabase } from '../SUPABASEsetup'
 
-// Define interface untuk tipe data
+
 interface InformasiData {
     id: number;
     judul: string;
