@@ -174,23 +174,23 @@ export default function PengurusInti() {
                 <div className='w-full bg-[#e2e2b7] flex items-start justify-center overflow-hidden -pt-100 -pb-1 relative border-b-4 border-white'>
                     <div className='absolute inset-0 flex flex-col'>
                         <div className='h-1/2 bg-[#fbfbe8] flex items-end justify-start relative z-0 pl-1 lg:pl-10'>
+                            {/* KETUA */}
                             <h1
-                                className='text-5xl md:text-7xl lg:text-8xl xl:text-[9rem] 2xl:text-[11rem] font-bold text-[#e2e2b1] leading-none -mb-2 md:-mb-5 lg:-mb-7 pl-[21px] md:pl-12 lg:pl-5 tracking-[0.2rem] lg:tracking-[0.5rem]'
+                                className='text-[clamp(2.5rem,11vw,4.5rem)] md:text-7xl lg:text-8xl xl:text-[9rem] 2xl:text-[10rem] font-bold text-[#e2e2b1] leading-none -mb-1 md:-mb-5 lg:-mb-7 pl-4 md:pl-12 lg:pl-5 xl:pl-8 2xl:pl-18 tracking-[0.08rem] md:tracking-[0.2rem] lg:tracking-[0.5rem]'
                                 style={{
                                     fontFamily: "'Nova Square', sans-serif",
-
                                 }}
                             >
                                 KETUA
                             </h1>
 
+                            {/* BEM FT */}
                             <h1
-                                className='text-5xl md:text-7xl lg:text-8xl xl:text-[9rem] 2xl:text-[11rem]
-                                 font-bold text-[#e2e2b7] lg:text-[#fbfbe8] leading-none -mb-2 lg:-mb-64 pl-12 lg:pl-15 xl:pl-17 lg:ml-46 [word-spacing:-1rem] lg:[word-spacing:-3rem]'
+                                className='text-[clamp(2.5rem,11vw,4.5rem)] md:text-7xl lg:text-8xl xl:text-[9rem] 2xl:text-[10rem] font-bold text-[#e2e2b7] lg:text-[#fbfbe8] leading-none -mb-1 md:-mb-2 lg:-mb-64 pl-16 md:pl-12 lg:pl-20 xl:pl-54 2xl:pl-56 whitespace-nowrap'
                                 style={{
                                     fontFamily: "'Nova Square', sans-serif",
-                                    letterSpacing: '0.1rem',
-
+                                    letterSpacing: '0.05rem',
+                                    wordSpacing: window.innerWidth >= 1280 ? '-2.95rem' : '-0.5rem',
                                 }}
                             >
                                 BEM FT
@@ -198,15 +198,25 @@ export default function PengurusInti() {
                         </div>
                         <div className='h-1/2 bg-[#e2e2b7]'></div>
                     </div>
-                    <div className='max-w-4xl px-22 py-5 text-justify relative z-10 mt-2 lg:-mt-10 flex items-end'>
 
-                        <img src={Ketua} alt="Foto Ketua" className='w-4/5 lg:w-2/3 mx-auto -mb-2 lg:-mb-5 pr-1 lg:pr-0 lg:ml-25 scale-110 lg:scale-100 mt-5 lg:mt-0' />
+                    <div className='max-w-4xl px-4 md:px-22 py-5 text-justify relative z-10 mt-10 md:mt-2 lg:-mt-10 flex items-end'>
+                        <img
+                            src={Ketua}
+                            alt="Foto Ketua"
+                            className='w-[70%] md:w-4/5 lg:w-2/3 mx-auto -mb-8 lg:-mb-5 pr-1 lg:pr-0 lg:ml-25 scale-100 lg:scale-100 mt-0 lg:mt-0'
+                        />
 
                         <div className='absolute bottom-1 lg:bottom-5 left-3 lg:-left-11 text-right'>
-                            <h2 className='text-[0.78rem] lg:text-[1.9em] font-bold text-gray-800' style={{ fontFamily: "'Vollkorn', serif" }}>
+                            <h2
+                                className='text-[0.78rem] lg:text-[1.9em] font-bold text-gray-800 leading-tight'
+                                style={{ fontFamily: "'Vollkorn', serif" }}
+                            >
                                 Muhammad Tsaqib Adha
                             </h2>
-                            <p className='text-[0.68rem] lg:text-xl text-gray-700 -mt-1' style={{ fontFamily: "'Saira', sans-serif" }}>
+                            <p
+                                className='text-[0.68rem] lg:text-xl text-gray-700 -mt-1'
+                                style={{ fontFamily: "'Saira', sans-serif" }}
+                            >
                                 Informatika 2025
                             </p>
                         </div>
