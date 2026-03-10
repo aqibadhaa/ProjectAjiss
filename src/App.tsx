@@ -14,6 +14,7 @@ import PengurusInti_SekreBendahara from './component/pengurusINTI_SekreBendahara
 import logoBem from './component/images/Fakultas Teknik.png';
 import InformasiSection from './component/InformasiSection';
 import FooterSection from './component/footer';
+import PencarianMahasiswa from './component/pencarianMahasiswa';
 
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother);
 
@@ -251,6 +252,10 @@ const CarouselSection = () => {
 
           <section>
             <InformasiSection></InformasiSection>
+          </section>
+
+          <section>
+            <PencarianMahasiswa></PencarianMahasiswa>
           </section>
 
           <section>
