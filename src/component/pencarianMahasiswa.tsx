@@ -21,7 +21,7 @@ const PencarianMahasiswa = () => {
         setSudahCari(true);
         try {
             const res = await fetch(
-                `http://localhost:3000/mahasiswa?filter=${filter}&query=${encodeURIComponent(query)}`
+                `https://pencarian-mahasiswa-backend-hono-heidisql-production.up.railway.app/mahasiswa?filter=${filter}&query=${encodeURIComponent(query)}`
             );
             const data = await res.json();
             setHasil(data);
