@@ -226,9 +226,9 @@ export default function PengurusInti() {
 
                 <div className='w-full bg-[#e2e2b7] flex items-start justify-center overflow-hidden -pt-100 -pb-1 relative'>
                     <div className='absolute inset-0 flex flex-col'>
-                        <div className='h-1/2 bg-[#e2e2b1] flex items-end justify-start relative z-0 pl-1 lg:pl-6'>
+                        <div className='h-1/2 bg-[#e2e2b1] flex items-end justify-start relative z-0 -pl-12 lg:pl-5'>
                             <h1
-                                className='text-4xl md:text-5xl lg:text-5xl xl:text-[6rem] 2xl:text-[7.5rem] font-bold leading-none -mb-[17.871px] md:-mb-5 lg:-mb-15 xl:-mb-12 2xl:-mb-15 pl-3 md:pl-12 lg:pl-5 ml-17 md:ml-5 lg:ml-6 xl:ml-65 2xl:ml-68 tracking-[0.2rem] lg:tracking-[0.5rem]'
+                                className='text-[2rem] md:text-5xl lg:text-5xl xl:text-[6rem] 2xl:text-[7.5rem] font-bold leading-none -mb-[17.871px] md:-mb-5 lg:-mb-15 xl:-mb-12 2xl:-mb-15 -pl-12 md:pl-12 lg:pl-5 ml-17 md:ml-5 lg:ml-6 xl:ml-65 2xl:ml-68 tracking-[0.2rem] lg:tracking-[0.5rem]'
                                 style={{
                                     fontFamily: "'Nova Square', sans-serif",
                                     background: 'linear-gradient(to bottom, #fbfbe8 0%, #fbfbe8 50%, #e2e2b1 50%, #e2e2b1 100%)',
@@ -241,7 +241,7 @@ export default function PengurusInti() {
                             </h1>
 
                             <h1
-                                className='text-4xl md:text-7xl lg:text-5xl xl:text-[6rem] 2xl:text-[7.5rem]
+                                className='text-[2rem] md:text-7xl lg:text-5xl xl:text-[6rem] 2xl:text-[7.5rem]
                                  font-bold leading-none -mb-[17.871px] lg:-mb-20 xl:-mb-12 2xl:-mb-15 pl-12 lg:pl-15 xl:pl-17 -ml-10 lg:ml-3 [word-spacing:-1rem] lg:[word-spacing:-3rem]'
                                 style={{
                                     fontFamily: "'Nova Square', sans-serif",
@@ -274,7 +274,7 @@ export default function PengurusInti() {
 
                         <img src={Sekre} alt="Foto Sekretaris" className='w-[58%] lg:w-3/6 -mb-6 lg:-mb-7 pr-1 lg:pr-0 ml-36 lg:-ml-60 xl:ml-111 2xl:ml-150 mt-6 lg:mt-10 scale-110 lg:scale-100 mr-auto' />
 
-                        <div className='absolute lg:bottom-3 left-77 lg:left-15 xl:left-172 2xl:left-185 text-right'>
+                        <div className='absolute lg:bottom-3 left-68 lg:left-15 xl:left-172 2xl:left-185 text-right'>
                             <h2 className='text-[0.7rem] lg:text-[1.4rem] xl:text-[1.4rem] 2xl:text-[1.5rem] font-bold text-gray-800' style={{ fontFamily: "'Vollkorn', serif" }}>
                                 Felicia Sheryn Andana
                             </h2>
