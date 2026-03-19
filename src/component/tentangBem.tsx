@@ -19,7 +19,7 @@ export function tentangBem() {
                     {/* Left Content */}
                     <div className="space-y-8 text-left lg:text-left lg:mx-5">
 
-                        <h1 className="text-5xl sm:text-start sm:text-6xl lg:text-7xl lg:-mx-2 text-[#302512] leading-tight">
+                        <h1 className="text-[2.6rem] sm:text-start sm:text-6xl lg:text-6xl xl:text-6xl 2xl:text-7xl lg:-mx-2 text-[#302512] leading-tight">
                             Dinamis
                             <span className="block text-transparent bg-clip-text bg-linear-to-r from-[#022f4f] to-[#022f4d] py-1">
                                 Integratif
@@ -36,7 +36,7 @@ export function tentangBem() {
                         {/* Stats */}
                         <div className="grid grid-cols-3 -gap-1 pt:2 lg:pt-4 max-w-xl mx-auto lg:mx-0 lg:ml-5">
                             <div className="text-center lg:text-justify">
-                                <div className="text-3xl sm:text-4xl text-[#022f4d]">
+                                <div className="text-[1.6rem] sm:text-4xl text-[#022f4d]">
                                     32
                                 </div>
                                 <div className="text-sm text-[#0e5089]">
@@ -45,7 +45,7 @@ export function tentangBem() {
 
                             </div>
                             <div className="text-center lg:text-left">
-                                <div className="text-3xl sm:text-4xl text-[#022f4d]">
+                                <div className="text-[1.6rem] sm:text-4xl text-[#022f4d]">
                                     10+
                                 </div>
                                 <div className="text-sm text-[#0e5089] lg:ml-2">
@@ -53,7 +53,7 @@ export function tentangBem() {
                                 </div>
                             </div>
                             <div className="text-center lg:text-left lg:mx-auto">
-                                <div className="text-3xl sm:text-4xl text-[#022f4d]">
+                                <div className="text-[1.6rem] sm:text-4xl text-[#022f4d]">
                                     35
                                 </div>
                                 <div className="text-sm text-[#0e5089]">

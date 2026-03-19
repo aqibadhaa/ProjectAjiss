@@ -22,10 +22,10 @@ export default function PengurusInti() {
                 gsap.fromTo(
                     textRef.current,
                     {
-                        xPercent: 12
+                        xPercent: 10
                     },
                     {
-                        xPercent: 18,
+                        xPercent: 15,
                         scrollTrigger: {
                             trigger: textRef.current,
                             start: 'top top+=900px',  // early start animation
@@ -40,10 +40,10 @@ export default function PengurusInti() {
                 gsap.fromTo(
                     textRef2.current,
                     {
-                        xPercent: -178  // mulai dari kanan dikit
+                        xPercent: 20  // mulai dari kanan dikit
                     },
                     {
-                        xPercent: -187,  // gerak ke kiri dikit
+                        xPercent: 14.5,  // gerak ke kiri dikit
                         scrollTrigger: {
                             trigger: textRef2.current,
                             start: 'top top+=900px',
@@ -100,10 +100,11 @@ export default function PengurusInti() {
                 gsap.fromTo(
                     textRef.current,
                     {
-                        xPercent: 12
+                        xPercent: 49
                     },
                     {
-                        xPercent: 22,
+                        xPercent: 56
+                        ,
                         scrollTrigger: {
                             trigger: textRef.current,
                             start: 'top top+=800px',
@@ -118,10 +119,10 @@ export default function PengurusInti() {
                 gsap.fromTo(
                     textRef2.current,
                     {
-                        xPercent: -169
+                        xPercent: 138
                     },
                     {
-                        xPercent: -184.5,
+                        xPercent: 128,
                         scrollTrigger: {
                             trigger: textRef2.current,
                             start: 'top top+=800px',
@@ -143,12 +144,12 @@ export default function PengurusInti() {
             <div id="smooth-content">
                 <div
                     ref={containerRef}
-                    className="w-full bg-[#fbfbe8] flex items-start justify-center overflow-hidden pt-15 lg:pt-18 pb-0"
+                    className="w-full bg-[#fbfbe8] flex flex-col items-start justify-center overflow-hidden pt-15 lg:pt-18 pb-0"
                 >
 
                     <h1
                         ref={textRef}
-                        className="text-[2.3rem] lg:text-8xl font-bold text-gray-800"
+                        className="w-full lg:w-auto text-[2.1rem] lg:text-8xl xl:text-[5rem] 2xl:text-8xl font-bold text-gray-800"
                         style={{ fontFamily: "'Vollkorn', serif" }}
                     >
                         PENGURUS INTI
@@ -156,7 +157,7 @@ export default function PengurusInti() {
 
                     <h1
                         ref={textRef2}
-                        className="text-[2.2rem] lg:text-[5.5rem] font-bold text-gray-800 mt-10 lg:mt-18"
+                        className="w-full lg:w-auto text-[2.0rem] lg:text-[4.5rem] xl:text-[4.625rem] 2xl:text-[5.5rem] font-bold text-gray-800 -mt-3 lg:-mt-5"
                         style={{ fontFamily: "'Vollkorn', serif" }}
                     >
                         BEM FT
@@ -165,7 +166,7 @@ export default function PengurusInti() {
 
                 <div className='w-full bg-[#fbfbe8] flex items-start justify-center overflow-hidden pt-0'>
                     <div className='max-w-4xl px-10 lg:px-22 py-5 text-justify'>
-                        <p className='text-black text-xl' style={{ fontFamily: 'Nunito, sans-serif' }}>Pengurus inti BEM merupakan struktur utama yang menjadi pusat koordinasi dan pengambilan keputusan dalam organisasi kemahasiswaan. Mereka berperan mengarahkan jalannya roda organisasi, menyelaraskan seluruh bidang dengan visi dan misi BEM, serta memastikan setiap program kerja berjalan secara efektif dan bertanggung jawab. Pengurus inti juga menjadi representasi kepemimpinan mahasiswa dalam menjembatani aspirasi mahasiswa dengan pihak internal maupun eksternal kampus.
+                        <p className='text-black text-lg lg:text-xl' style={{ fontFamily: 'Nunito, sans-serif' }}>Pengurus inti BEM merupakan struktur utama yang menjadi pusat koordinasi dan pengambilan keputusan dalam organisasi kemahasiswaan. Mereka berperan mengarahkan jalannya roda organisasi, menyelaraskan seluruh bidang dengan visi dan misi BEM, serta memastikan setiap program kerja berjalan secara efektif dan bertanggung jawab. Pengurus inti juga menjadi representasi kepemimpinan mahasiswa dalam menjembatani aspirasi mahasiswa dengan pihak internal maupun eksternal kampus.
 
                         </p>
                     </div>
