@@ -242,7 +242,7 @@ export default function PengurusInti() {
 
                             <h1
                                 className='text-[2rem] md:text-7xl lg:text-5xl xl:text-[6rem] 2xl:text-[7.5rem]
-                                 font-bold leading-none -mb-[17.871px] lg:-mb-20 xl:-mb-12 2xl:-mb-15 pl-22 lg:pl-15 xl:pl-17 -ml-10 lg:ml-3 [word-spacing:-1rem] lg:[word-spacing:-3rem]'
+                                 font-bold leading-none -mb-[17.871px] lg:-mb-20 xl:-mb-12 2xl:-mb-15 pl-19 lg:pl-15 xl:pl-17 -ml-10 lg:ml-3 [word-spacing:-1rem] lg:[word-spacing:-3rem]'
                                 style={{
                                     fontFamily: "'Nova Square', sans-serif",
                                     letterSpacing: '0.1rem',
