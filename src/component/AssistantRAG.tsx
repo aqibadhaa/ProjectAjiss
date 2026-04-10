@@ -77,7 +77,7 @@ export default function AsistantPdf() {
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     question: userMessage.content,
-                    source: source, // ← otomatis terisi!
+                    source: file?.name, // ← otomatis terisi!
                 }),
             });
             const data = await res.json();
