@@ -41,7 +41,7 @@ export default function AsistantPdf() {
                 body: formData,
             });
             const data = await res.json();
-            console.log(data)
+            console.log("data fields adalah:", data);
             setSource(data.source); // ← simpan source dari response
             setMessages([{
                 role: "assistant",
