@@ -15,6 +15,7 @@ import logoBem from './component/images/Fakultas Teknik.png';
 import InformasiSection from './component/InformasiSection';
 import FooterSection from './component/footer';
 import PencarianMahasiswa from './component/pencarianMahasiswa';
+import AssistantRAG from './component/AssistantRAG'
 
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother);
 
@@ -256,6 +257,10 @@ const CarouselSection = () => {
 
           <section>
             <PencarianMahasiswa></PencarianMahasiswa>
+          </section>
+
+          <section>
+            <AssistantRAG />
           </section>
 
           <section>
