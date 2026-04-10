@@ -41,11 +41,10 @@ export default function AsistantPdf() {
                 body: formData,
             });
             const data = await res.json();
-            console.log("data fields adalah:", data);
-            setSource(data.source); // ← simpan source dari response
+            setSource(data.message); // ← ganti dari data.source ke data.message
             setMessages([{
                 role: "assistant",
-                content: `✅ Dokumen **${data.source}** berhasil diproses! (${data.total_chunks} chunks). Silakan ajukan pertanyaan.`
+                content: `✅ ${data.message} (${data.total_chunks} chunks). Silakan ajukan pertanyaan.`
             }]);
         } catch {
             setMessages([{
@@ -241,7 +240,7 @@ export default function AsistantPdf() {
                             value={input}
                             onChange={(e) => setInput(e.target.value)}
                             onKeyDown={handleKeyDown}
-                            disabled={!file || loading || uploading || !source}
+                            disabled={!file || loading || uploading}
                             placeholder={
                                 uploading ? "Memproses PDF..." :
                                     file ? "Tanyakan sesuatu tentang PDF ini..." :
